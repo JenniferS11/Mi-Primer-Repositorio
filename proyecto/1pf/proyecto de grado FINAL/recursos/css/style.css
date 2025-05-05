@@ -1,0 +1,73 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap");
+
+body {
+  margin: 0;
+  padding: 20px;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: "Montserrat", sans-serif;
+  background-image: url(../imgs/fondo_e.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.container {
+  text-align: center;
+  padding: 20px;
+  max-width: 400px;
+  margin: 0 auto;
+  background-color: #fff;
+  border-radius: 20px;
+  box-shadow: rgba(0, 0, 0, 0.079) 0px 10px 10px 10px;
+}
+
+.container form h2 {
+  font-size: 30px;
+  text-align: center;
+  margin-bottom: 20px;
+  color: #f07f17;
+}
+form input[type="text"],
+form input[type="date"],
+form select {
+  font-size: 0.9em;
+  font-weight: 100;
+  padding: 10px;
+  border: none;
+  -webkit-transition: all 0.3s cubic-bezier(0.64, 0.09, 0.08, 1);
+  transition: all 0.3s cubic-bezier(0.64, 0.09, 0.08, 1);
+  background-position: -800px 0;
+  background-size: 40%;
+  background-repeat: no-repeat;
+  font-family: "Montserrat", sans-serif;
+  border-radius: 6px;
+  box-shadow: rgba(50, 50, 93, 0.2) 0px 6px 12px -2px,
+    rgba(0, 0, 0, 0.2) 0px 3px 7px -3px;
+  margin-bottom: 16px;
+}
+
+form select {
+  width: 100%;
+}
+
+form .botons {
+  padding: 10px 40px;
+  margin-top: 15px;
+  border: 2px solid #f07f17;
+  border-radius: 10px;
+  background: #f07f17;
+  font-size: 14px;
+  cursor: pointer;
+  color: white;
+  outline: none;
+  font-family: "Montserrat", sans-serif;
+}
+
+form .botons:hover {
+  background-color: #f59338;
+}
+
+form h4 {
+  text-align: center;
+  margin-bottom: 20px;
+}
